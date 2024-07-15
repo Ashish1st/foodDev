@@ -3,14 +3,16 @@ import { assets } from "../../assets/assets";
 
 function Header() {
   return (
-    <div className="headercontainer h-[34vw] my-[30px] mx-auto"
-     style={{
-      backgroundImage: `url(${assets.header_img})`,
-      backgroundSize: "contain",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      position: "relative",
-    }}>
+    <div
+      className="headercontainer h-[34vw] my-[30px] mx-auto"
+      style={{
+        backgroundImage: `url(${assets.header_img})`,
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        position: "relative",
+      }}
+    >
       <div className="headerContent absolute flex flex-col items-start gap-[1.5vw] max-w-[65%] sm:max-w-[50%] bottom-[10%] left-[6vw]">
         <h2 className="font-semibold text-white text-[max(4.5vw,22px)] leading-[max(4.5vw,22px)]">
           Bringing delicious meals to your doosteps ,
